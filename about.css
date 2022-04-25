@@ -19,7 +19,7 @@
     align-items: center;
     height: 100%;
     width: 35%;
-    background-color: white;
+    background-color: var(--light-bg-light);
     border-radius: 33px;
     justify-content:space-between;
 }
@@ -28,7 +28,7 @@
     text-align: center;
     width: 60%;
     letter-spacing: 0px;
-    color: #4285F4;
+    color: var(--blue-accent-color);
     opacity: 1;
 }
 
@@ -57,9 +57,9 @@
 }
 
 .social span {
-    background-color: #4285F4;
+    background-color: var(--blue-accent-color);
     padding: 2px 3px;
-    color: #fff;
+    color: var(--text-color-light);
     font-weight: 700;
     font-size: normal;
 }
