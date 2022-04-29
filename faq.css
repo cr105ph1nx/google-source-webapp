@@ -25,6 +25,8 @@ body {
 .faq {
     width: 100%;
     text-align: center;
+    overflow: hidden;
+    padding: 50px 0;
 }
 
 .faq .title {
@@ -54,12 +56,14 @@ body {
     margin: 0 auto;
     border-radius: 40px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-    display: flex;
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
 }
 
 .faq .items {
-    width: 50%;
-    padding: 80px 120px;
+    padding: 80px 110px;
 }
 
 .faq .items .container {
@@ -75,16 +79,17 @@ body {
 
 .faq .items .container .item {
     width: 100%;
-    padding: 18px 24px;
+    padding: 16px 24px;
     background-color: #ffffff;
     border-radius: 10px;
     display: flex;
+    align-items: center;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     z-index: 1;
 }
 
 .faq .items .container .item .text {
-    width: 90%;
+    width: 95%;
     font-size: 20px;
     font-family: 'Google Sans Medium', sans-serif;
     text-align: start;
@@ -92,7 +97,7 @@ body {
 }
 
 .faq .items .container .item .icon-btn {
-    width: 10%;
+    width: 5%;
     display: inline-block;
 }
 
@@ -120,15 +125,18 @@ body {
 }
 
 .faq .items .container .item-content .text {
-    width: 90%;
+    width: 95%;
     font-size: 17px;
     font-family: 'Google Sans Medium', sans-serif;
     text-align: start;
     color: #ffffff;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .faq .items .container .item-content .icon-btn {
-    width: 10%;
+    width: 5%;
     display: inline-block;
 }
 
@@ -142,3 +150,163 @@ body {
     margin: 0 auto;
     cursor: pointer;
 }
+
+.faq .image {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.faq .image img {
+    height: 108%;
+    position: absolute;
+    bottom: -65px;
+    right: -90px;
+}
+
+@media (max-width: 1800px) {
+    .faq .bg {
+        width: 85%;
+    }
+    .faq .items {
+        padding: 80px 80px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .faq .bg {
+        width: 90%;
+    }
+    .faq .items {
+        padding: 80px 50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .faq .bg {
+        width: 95%;
+    }
+
+    .faq .items {
+        padding: 80px 40px;
+    }
+    .faq .items .container .item .text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .faq .bg {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq .items {
+        padding: 80px 80px;
+        padding-bottom: 22px;
+    }
+
+    .faq .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    .faq .image img {
+        position: relative;
+        width: 50%;
+        bottom: unset;
+        right: unset;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .faq .title {
+        font-size: 30px;
+    }
+    .faq .bg {
+        width: 85%;
+    }
+    .faq .items {
+        padding: 80px 60px;
+        padding-bottom: 22px;
+    }
+    .faq .items .container .item {
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq .bg {
+        width: 90%;
+    }
+    .faq .items {
+        padding: 80px 50px;
+        padding-bottom: 22px;
+    }
+    .faq .image img {
+        width: 75%;
+    }
+    .faq .items .container .item .text {
+        font-size: 16px;
+    }
+    .faq .items .container .item-content .text {
+        font-size: 15px;
+    }
+
+    .faq .items .container .item .icon-btn .icon-img {
+        width: 20px;
+        height: 20px;
+    }
+    .faq .items .container .item-content .icon-btn .icon-img {
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+
+@media (max-width: 576px) {
+    .faq .title {
+        font-size: 20px;
+    }
+    .faq .bg {
+        width: 95%;
+    }
+    .faq .items {
+        padding: 70px 20px;
+        padding-bottom: 22px;
+    }
+
+    .faq .items .container .item .text {
+        font-size: 13px;
+    }
+
+    .faq .items .container .item {
+        padding: 12px 20px;
+    }
+
+    .faq .items .container .item .icon-btn .icon-img {
+        width: 16px;
+        height: 16px;
+    }
+    .faq .items .container .item-content .icon-btn .icon-img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .faq .items .container .item-content .text {
+        font-size: 13px;
+    }
+    .faq .items .container .item-content .content{
+        padding: 14px 20px;
+    }
+}
+
+
+
+
