@@ -43,7 +43,7 @@
 
 .card-container {
   position: relative;
-  padding: 0 2em;
+  width: 90%;
 }
 
 .card {
