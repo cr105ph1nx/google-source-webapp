@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing</title>
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!--  add javascript -->
+    <script src="mobileMenu.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <header class="landing">
+        <img class="corner" src="./assets/corner.png" alt="blue corner">
+        <div class="navbar flex">
+            <div>
+                <img src="./assets/gs-logo-dah.png" alt="logo" class="logo">
+            </div>
+            
+            <button id="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false">
+            </button>
+
+            <nav>
+                <ul id="primary-navigation" class="navigation flex" data-visible="false">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <br>
+                    <li><a class="button" href="#register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content flex">
+            <div class="text flex">
+                <h1 class="headline">
+                    Lorem Ipsum Dolor Sit Amet, Consetetur <span>Sadipscing Elitr</span>, Sed Diam Nonumy Magna
+                </h1>
+                <br>
+                <div><a href="#register" class="button">Register</a></div>
+                <br>
+                <div class="location flex">
+                    <img src="./assets/Icon awesome-map-pin.svg" alt="marker">
+                    <p>University Of Science And Technology Houari Boumedien -USTHB-</p>
+                </div>
+            </div>
+            <div class="popups">
+                <img src="./assets/Groupe 164.png" alt="popups">
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

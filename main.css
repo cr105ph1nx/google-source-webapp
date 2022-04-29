@@ -1,0 +1,57 @@
+:root {
+    --light-bg-color: #fff;
+    --text-color-light: #fff;
+    --section-bg-color: #eff1f8;
+    --blue-accent-color: #4285f4;
+    --card-button-bg-color: #fbbc04;
+    --card-button-text-color: #fff;
+    --card-body-title: #4285f4;
+    --navigation-circle-active-color: #fbbc04;
+    --navigation-circle-inactive-color: #fff;
+    --card-body-title-size: 16px;
+    --card-body-subtitle-size: 14px;
+    --card-body-size: 14px;
+    --section-title-size: 30px;
+    --yellow-arrows-filter: invert(73%) sepia(60%) saturate(1778%)
+      hue-rotate(360deg) brightness(103%) contrast(97%);
+    --white-arrows-filter: invert(82%) sepia(74%) saturate(0%) hue-rotate(276deg)
+      brightness(109%) contrast(101%);
+  }
+  
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--section-bg-color);
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 0;
+    width: inherit;
+    text-align: center;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  
+  .section-title img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .section-title span {
+    font-weight: 900;
+    font-size: var(--section-title-size) !important;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+  }

@@ -1,0 +1,173 @@
+.flex{
+    display: flex;
+    gap: 2vw;
+}
+
+.landing{
+    width: 100%;
+    height: 85vh;
+    background-image: url('assets/Groupe 165.png');
+    background-repeat: no-repeat;
+    background-position: 75% 75%;
+    background-size: 50vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+}
+.landing .navbar {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    padding: 1em;
+    position: relative;
+}
+.landing .navigation {
+    list-style: none;
+    margin: 0;
+    margin-right: 10rem;
+}
+
+.landing a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.landing .logo{
+    position: absolute;
+    height: 4vw;
+    inset: 1em 2em;
+}
+
+.landing .content{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.landing .popups{
+    width: 25vw;
+}
+.landing .content img{
+    width: 100%;
+    height: auto;
+}
+
+.landing .text{
+    padding: 2em;
+    width: 40%;
+    flex-direction: column;
+}
+.landing .headline{
+    font-size: inherit;
+    font-weight: 800;
+}
+.landing .headline span{
+    color: var(--blue-accent-color);
+}
+.landing .location{
+    display: flex;
+    justify-content: start;
+    max-width: 60%;
+    font-size: 1.2vw;
+    font-weight: 700;
+    gap: .3rem;
+}
+.landing .location img{
+    width: 1.2vw;
+    height: auto;
+}
+
+.landing .button{
+    padding: .5em 2em;
+    background-color: var(--card-button-bg-color);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.mobile-nav-toggle{
+    display: none;
+}
+
+.landing .corner{
+    display: inline-block;
+    position: absolute;
+    top: -5rem;
+    right: -3rem;
+    aspect-ratio: 1;
+    z-index: -1;
+}
+
+@media (max-width: 35em){
+    .landing {
+        font-size: 1.2rem;
+        background-size: 70vh;
+        background-position: 15vw 50vw;
+        background-attachment: fixed;
+    }
+    .landing .navbar {
+        padding: 0;
+    }
+    .landing .navigation {
+        position: fixed;
+        inset: 0 0 0 30%;
+        background: steelblue;
+        flex-direction: column;
+        padding: 5rem 2em;
+        margin: 0;
+        z-index: 100;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    }
+    #primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .landing .button{
+        margin: 1em 0;
+    }
+    .landing .popups{
+        display: none;
+    }
+    .landing .headline{
+        font-size: inherit;
+    }
+    .landing .content{
+        justify-content: start;
+        align-items: center;
+    }
+    .landing .text{
+        width: 80%;
+        padding: .5em;
+    }
+    .landing .location{
+        font-size: 1rem;
+    }
+    .landing .location img{
+        width: 1.2rem;
+    }
+    .landing .logo{
+        height: 3rem;
+        inset: 1em;
+    }
+
+    #mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        width: 2em;
+        aspect-ratio: 1;
+        top: 1em;
+        right: 1em;
+        background: url('assets/open-menu.svg') no-repeat;
+        background-size: contain;
+        border: 0;
+    }
+    #mobile-nav-toggle[aria-expanded="true"]{
+        background: url('assets/close-menu.svg') no-repeat;
+        background-size: contain;
+    }
+}
