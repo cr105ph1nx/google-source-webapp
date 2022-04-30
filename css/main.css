@@ -36,11 +36,13 @@ section {
 
 .section-title {
   text-align: center;
+  margin: 1rem 0;
 }
 
 .section-title img {
   display: inline-block;
   vertical-align: middle;
+  margin: 1rem;
 }
 
 .section-title span {
