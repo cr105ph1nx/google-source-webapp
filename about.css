@@ -19,7 +19,7 @@
     align-items: center;
     height: 100%;
     width: 35%;
-    background-color: var(--light-bg-light);
+    background-color: white;
     border-radius: 33px;
     justify-content:space-between;
 }
@@ -67,4 +67,21 @@
 .social img {
     width: 41px;
     height: 41px;
+}
+@media screen and (max-width:768px) {
+    .card-container{
+        height: fit-content;
+        flex-direction: column;
+        padding:0;
+        padding-block: 30px;
+        gap: 30px;
+    }
+    .card{
+        width: 80%;
+        height: 70vh;
+        line-height: normal!important;
+    }
+    .card p{
+        line-height: 23px;
+    }
 }

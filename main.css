@@ -54,4 +54,21 @@ height: 164px;
     font-size: var(--section-title-size) !important;
     text-transform: capitalize;
     margin-left: -30px;
+
+  }
+  @media screen and (max-width:768px) {
+    section{
+        height: fit-content;
+        padding-block: 40px;
+    }
+    .section-title{
+      height: 5vh;
+    }
+    .section-title img {
+       height: 120px;
+        width: 120px;
+      } 
+      .section-title span {
+        margin-left: -5px;
+        } 
   }
