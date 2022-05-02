@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.064" height="59.064" viewBox="0 0 59.064 59.064">
+  <defs>
+    <filter id="Icon_awesome-facebook-square" x="0" y="0" width="59.064" height="59.064" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-facebook-square)">
+    <path id="Icon_awesome-facebook-square-2" data-name="Icon awesome-facebook-square" d="M36.665,2.25H4.4A4.4,4.4,0,0,0,0,6.65V38.915a4.4,4.4,0,0,0,4.4,4.4H16.98V29.353H11.206V22.782H16.98V17.774c0-5.7,3.391-8.844,8.586-8.844a34.984,34.984,0,0,1,5.089.444v5.591H27.789c-2.824,0-3.7,1.753-3.7,3.55v4.267h6.3L29.38,29.353h-5.3V43.314H36.665a4.4,4.4,0,0,0,4.4-4.4V6.65A4.4,4.4,0,0,0,36.665,2.25Z" transform="translate(9 3.75)" fill="#4285f4"/>
+  </g>
+</svg>

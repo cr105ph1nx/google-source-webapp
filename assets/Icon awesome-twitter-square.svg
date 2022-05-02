@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.912" height="55.912" viewBox="0 0 55.912 55.912">
+  <defs>
+    <filter id="Icon_awesome-twitter-square" x="0" y="0" width="55.912" height="55.912" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-twitter-square)">
+    <path id="Icon_awesome-twitter-square-2" data-name="Icon awesome-twitter-square" d="M33.85,2.25H4.062A4.063,4.063,0,0,0,0,6.312V36.1a4.063,4.063,0,0,0,4.062,4.062H33.85A4.063,4.063,0,0,0,37.912,36.1V6.312A4.063,4.063,0,0,0,33.85,2.25ZM29.712,15.688c.017.237.017.482.017.719A15.683,15.683,0,0,1,13.938,32.2a15.718,15.718,0,0,1-8.522-2.488,11.693,11.693,0,0,0,1.337.068,11.128,11.128,0,0,0,6.888-2.369,5.557,5.557,0,0,1-5.187-3.85,5.982,5.982,0,0,0,2.5-.1,5.551,5.551,0,0,1-4.443-5.45v-.068a5.546,5.546,0,0,0,2.5.7,5.538,5.538,0,0,1-2.471-4.62,5.481,5.481,0,0,1,.753-2.8,15.759,15.759,0,0,0,11.441,5.805,5.562,5.562,0,0,1,9.469-5.069,10.876,10.876,0,0,0,3.52-1.337A5.536,5.536,0,0,1,29.3,13.674a11.045,11.045,0,0,0,3.2-.863A11.682,11.682,0,0,1,29.712,15.688Z" transform="translate(9 3.75)" fill="#4285f4"/>
+  </g>
+</svg>
