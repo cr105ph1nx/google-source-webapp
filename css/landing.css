@@ -113,7 +113,7 @@
   .landing .navigation {
     position: fixed;
     inset: 0 0 0 30%;
-    background: steelblue;
+    background: var(--blue-accent-color);
     flex-direction: column;
     padding: 5rem 2em;
     margin: 0;
