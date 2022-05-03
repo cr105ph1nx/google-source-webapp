@@ -39,6 +39,8 @@
   width: 90%;
   font-weight: 500;
   text-transform: capitalize;
+  overflow: scroll;
+  white-space: normal;
 }
 
 .about .club-name {

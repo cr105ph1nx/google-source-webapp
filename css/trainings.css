@@ -52,7 +52,6 @@
   height: fit-content;
   width: fit-content;
   margin: 10px;
-  text-overflow: ellipsis;
 }
 
 .trainings .card .header {
