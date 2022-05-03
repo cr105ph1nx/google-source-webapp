@@ -103,7 +103,7 @@
   opacity: 1;
 }
 
-.card .body .button:hover {
+.trainings .card .body .button:hover {
   cursor: pointer;
   transform: scale(1.08);
 }
