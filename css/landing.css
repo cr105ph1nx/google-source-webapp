@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position: 75% 75%;
   background-size: 50vw;
+  background-attachment: scroll;
   font-size: 1.5vw;
   font-weight: 800;
   position: relative;
@@ -36,8 +37,8 @@
 
 .landing .logo {
   position: absolute;
-  height: 4vw;
-  inset: 1em 2em;
+  height: 7rem;
+  inset: -1rem -1rem;
 }
 
 .landing .content {
@@ -49,6 +50,7 @@
 
 .landing .popups {
   width: 25vw;
+  margin-right: -1rem;
 }
 .landing .content img {
   width: 100%;
@@ -81,13 +83,13 @@
 }
 
 .landing .button {
-  padding: 0.5em 2em;
+  padding: .5rem 1.5rem;
   background-color: var(--card-button-bg-color);
   color: #fff;
   border-radius: 10px;
 }
 
-.mobile-nav-toggle {
+#mobile-nav-toggle {
   display: none;
 }
 
@@ -105,7 +107,6 @@
     font-size: 1.2rem;
     background-size: 70vh;
     background-position: 15vw 50vw;
-    background-attachment: fixed;
   }
   .landing .navbar {
     padding: 0;
@@ -138,7 +139,7 @@
     align-items: center;
   }
   .landing .text {
-    width: 80%;
+    width: 90%;
     padding: 0.5em;
   }
   .landing .location {
@@ -146,10 +147,6 @@
   }
   .landing .location img {
     width: 1.2rem;
-  }
-  .landing .logo {
-    height: 3rem;
-    inset: 1em;
   }
 
   #mobile-nav-toggle {
