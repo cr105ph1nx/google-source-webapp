@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-position: 75% 75%;
     background-size: 50vw;
+    background-attachment: scroll;
     font-size: 1.5vw;
     font-weight: 800;
     position: relative;
@@ -89,7 +90,7 @@
     border-radius: 10px;
 }
 
-.mobile-nav-toggle{
+#mobile-nav-toggle{
     display: none;
 }
 
