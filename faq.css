@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Google Sans Bold';
     src: url(./fonts/ProductSans-Bold.ttf) format('truetype');
 }
@@ -6,7 +6,9 @@
 @font-face {
     font-family: 'Google Sans Medium';
     src: url(./fonts/ProductSans-Medium.ttf) format('truetype');
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 *{
     padding: 0;
@@ -20,6 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .faq {
@@ -34,7 +37,7 @@ body {
     color: #090909;
     display: inline-block;
     margin-bottom: 65px;
-    font-family: 'Google Sans Bold', sans-serif;
+    /* font-family: 'Google Sans Bold', sans-serif; */
 }
 
 .faq .title::after {
@@ -91,9 +94,11 @@ body {
 .faq .items .container .item .text {
     width: 95%;
     font-size: 20px;
-    font-family: 'Google Sans Medium', sans-serif;
+    /* font-family: 'Google Sans Medium', sans-serif; */
+    font-weight: 600;
     text-align: start;
     color: #4285F4;
+    padding-right: 15px;
 }
 
 .faq .items .container .item .icon-btn {
@@ -127,10 +132,11 @@ body {
 .faq .items .container .item-content .text {
     width: 95%;
     font-size: 17px;
-    font-family: 'Google Sans Medium', sans-serif;
+    /* font-family: 'Google Sans Medium', sans-serif; */
+    font-weight: 600;
     text-align: start;
     color: #ffffff;
-    padding-right: 10px;
+    padding-right: 15px;
     display: flex;
     align-items: center;
 }
@@ -160,6 +166,7 @@ body {
 
 .faq .image img {
     height: 108%;
+    max-height: 775px;
     position: absolute;
     bottom: -65px;
     right: -90px;
@@ -183,7 +190,7 @@ body {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1540px) {
     .faq .bg {
         width: 95%;
     }
@@ -196,7 +203,7 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .faq .bg {
         width: 80%;
         display: flex;
@@ -224,7 +231,7 @@ body {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .faq .title {
         font-size: 30px;
     }
@@ -240,7 +247,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .faq .bg {
         width: 90%;
     }
@@ -270,7 +277,7 @@ body {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 750px) {
     .faq .title {
         font-size: 20px;
     }
