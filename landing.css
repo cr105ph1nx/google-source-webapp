@@ -38,8 +38,8 @@
 
 .landing .logo{
     position: absolute;
-    height: 4vw;
-    inset: 1em 2em;
+    height: 7rem;
+    inset: -1rem -1rem;
 }
 
 .landing .content{
@@ -84,7 +84,7 @@
 }
 
 .landing .button{
-    padding: .5em 2em;
+    padding: .5rem 1.5rem;
     background-color: var(--card-button-bg-color);
     color: #fff;
     border-radius: 10px;
@@ -141,7 +141,7 @@
         align-items: center;
     }
     .landing .text{
-        width: 80%;
+        width: 90%;
         padding: .5em;
     }
     .landing .location{
@@ -149,10 +149,6 @@
     }
     .landing .location img{
         width: 1.2rem;
-    }
-    .landing .logo{
-        height: 3rem;
-        inset: 1em;
     }
 
     #mobile-nav-toggle{
