@@ -1,4 +1,4 @@
-body {
+/*body {
     background: #EFF1F8;
     min-height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
 
-}
+}*/
 
 .stat {
     width: 100%;
@@ -133,7 +133,7 @@ body {
     display: inline-block;
     margin-bottom: 15%;
     font-weight: 700;
-    top: 5%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
 
