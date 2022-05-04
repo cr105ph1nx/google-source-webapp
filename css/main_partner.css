@@ -1,0 +1,26 @@
+:root {
+  --light-bg-color: #fff;
+  --text-color-light: #fff;
+  --section-bg-color: #eff1f8;
+  --blue-accent-color: #4285f4;
+  --card-button-bg-color: #fbbc04;
+  --card-button-text-color: #fff;
+  --card-body-title: #4285f4;
+  --card-body-title-size: 16px;
+  --card-body-subtitle-size: 14px;
+  --card-body-size: 14px;
+  --section-title-size: 30px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--section-bg-color);
+  width: 100%;
+  height: 100%;
+  font-size: 1vw;
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
