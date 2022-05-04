@@ -90,7 +90,7 @@
 .faq .items .container .item .icon-btn .icon-img {
   width: 26px;
   height: 26px;
-  background: url(./assets/drop_icon_down.svg);
+  background: url(../assets/drop_icon_down.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,7 +129,7 @@
 .faq .items .container .item-content .icon-btn .icon-img {
   width: 26px;
   height: 26px;
-  background: url(./assets/drop_icon_up.svg);
+  background: url(../assets/drop_icon_up.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
